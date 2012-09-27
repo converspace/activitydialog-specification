@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Activity Dialog by converspace</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1>Activity Dialog</h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/converspace/activitydialog">View the Project on GitHub <small>converspace/activitydialog</small></a></p>
+        <ul>
+          <li><a href="https://github.com/converspace/activitydialog/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/converspace/activitydialog/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/converspace/activitydialog">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>A method for third-party sites to invoke an activity dialog on the users website to allow the user to perform an activity (like, follow, comment, share, etc.) on the third-party owned URI addressable resource.</p>
+
+<p>Third-party sites will allow actions (follow, like, comment, share) on their resources by asking for your converspace URI which in turn will return an ActivityDialogURI (via HTTP header or HTML link tag) that they can popup in a separate window passing in the required parameter (resource, activity, etc.). Since this URI is on the users website, it will authenticate the user and the action therefore will happen on the users site and send an <a href="https://github.com/sandeepshetty/converspace/blob/master/ActivityPingback.md">Activity Pingback</a> to the thrid-party site about it. This is kinda like a bookmarklet to a URI on your site but invoked by a third-party sites.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/converspace">converspace</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
