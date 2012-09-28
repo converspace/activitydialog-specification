@@ -1,5 +1,5 @@
-Activity Dialog
-===============
+Activity Dialog Specification
+=============================
 
 A method for third-party sites to invoke an activity dialog on the users website to allow the user to perform an activity (like, follow, comment, share, etc.) on the third-party owned URI addressable resource.
 
