@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Activity Dialog Specification by converspace</title>
+    <title>ActivityDialog Specification by converspace</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -17,17 +17,17 @@
   <body>
     <div class="wrapper">
       <header class="without-description">
-        <h1>Activity Dialog Specification</h1>
+        <h1>ActivityDialog Specification</h1>
         <p></p>
-        <p class="view"><a href="https://github.com/converspace/activity-dialog">View the Project on GitHub <small>converspace/activity-dialog</small></a></p>
+        <p class="view"><a href="https://github.com/converspace/activitydialog-specification">View the Project on GitHub <small>converspace/activitydialog-specification</small></a></p>
         <ul>
-          <li><a href="https://github.com/converspace/activity-dialog/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/converspace/activity-dialog/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/converspace/activity-dialog">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/converspace/activitydialog-specification/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/converspace/activitydialog-specification/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/converspace/activitydialog-specification">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
-        <p>A method to open an Activity Dialog, a resource that the user controls, that allows them to create an activity stream entry on their website, the object of which can be any URI addressable resource. This could be implemented as a simple bookmarklet that prefills the object of the activity with the current URL and/or the selected text as content. </p>
+        <p>A method to open an ActivityDialog, a resource that the user controls, that allows them to create an activity stream entry on their website, the object of which can be any URI addressable resource. This could be implemented as a simple bookmarklet that prefills the object of the activity with the current URL and/or the selected text as content. </p>
 
 <p>The activity stream entry should trigger an Activity Pingback to the object and a PubSubHubbub push for followers.</p>
 
@@ -39,7 +39,7 @@
 </ul><h2>Older stuff</h2>
 
 <ul>
-<li><p>A method for third-party sites to invoke an activity dialog on the users website to allow the user to perform an activity (like, follow, comment, share, etc.) on the third-party owned URI addressable resource on thier own website.</p></li>
+<li><p>A method for third-party sites to invoke an ActivityDialog on the users website to allow the user to perform an activity (like, follow, comment, share, etc.) on the third-party owned URI addressable resource on thier own website.</p></li>
 <li><p>Third-party sites will allow actions (follow, like, comment, share) on their resources by asking for your URI from where they can <code>GET</code> an Activity-Dialog URI header that they can popup in a separate window passing in the required parameter (actor, verb, object, etc.). Since this URI is on the users website, it will authenticate the user and the action therefore will happen on the users site and send an <a href="http://activitypingback.org/">Activity Pingback</a> to the thrid-party website about it. This is kinda like a bookmarklet to a URI on your website that is automatically invoked by a third-party website.</p></li>
 <li><p>This could also be implemented as a bookmarklet that parses a microformats on the resource it is invoked on and presents all possible actions allowed on that resource. Browsers should eventually implement this.</p></li>
 </ul><h2>See also</h2>
